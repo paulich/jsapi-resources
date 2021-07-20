@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch app",
+      "type": "chrome",
+      "request": "launch",
+      "preLaunchTask": "npm: start - esm-samples/jsapi-angular-cli",
+      "url": "http://localhost:4200",
+      "webRoot": "${workspaceFolder}",
+      "runtimeArgs": ["--disable-web-security"]
+    }
+  ]
+}
